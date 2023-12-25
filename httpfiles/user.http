@@ -1,0 +1,18 @@
+POST https://localhost:7013/api/users
+Content-Type: application/json
+
+{
+    "name": "Moshi"
+}
+
+###
+
+GET https://localhost:7013/api/users/2
+
+###
+
+GET https://localhost:7013/api/users/with-todos
+
+###
+
+GET https://localhost:7013/api/users/with-todos-async

@@ -1,0 +1,20 @@
+POST https://localhost:7013/api/todos
+Content-Type: application/json
+
+{
+    "title": "Code",
+    "description": "Code some C# please",
+    "ownedBy": 2
+}
+
+###
+
+PUT https://localhost:7013/api/todos/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "title": "Todo 1",
+    "description": "A first todo. Been modified.",
+    "order": 1
+}
